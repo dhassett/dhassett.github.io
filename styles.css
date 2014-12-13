@@ -1,0 +1,95 @@
+body {
+ 
+	background:#ebe5d9;
+	margin:0;
+	font-size:16px;
+	font-family:Arial,'helvetica', sans-serif;
+	color:#232c06;
+	
+}
+
+h1 { 
+     font-size:50px;
+	font-family: 'Amatic SC', cursive;color# 30a9a0;
+     }
+ a {
+ 	color:red;
+ 	text-decoration:none;
+ }
+ a:hover{
+ 	     color:violet;
+ }
+
+ .items {
+ 	padding:0;
+ 	list-style:none; 
+
+ }
+#wrapper {
+	
+	padding-top:0;
+	padding-bottom: 2em;
+	width:100%;
+	}
+
+	#container, #navigation {
+			
+			 
+			border: 0px solid black ;
+			margin:0 auto;
+			max-width: 960px;
+		}
+		#container{
+			background: url(images/upfeathers.png);
+
+		}
+
+	/* Embedded-media 
+	------------------------------------*/
+	img{ width:50%;
+
+	}
+	.cat{
+		max-width:300px;
+	}
+		
+
+/* Navigation
+----------------------------------------*/
+
+
+nav ul {
+	padding:0;
+	list-style:none;
+}
+
+nav ul li {
+	float: left;
+	margin: 0 5px 00;
+} 
+nav ul li a {
+	background:#ccc;
+	border-radius:50%;
+	padding: 5px 15px;
+	width: 220px;
+	height: 120px;
+}
+
+nav ul li :hover {
+	background: #3dbeb5;
+}
+
+	/* Clearfix
+	-----------------------------------*/
+	.clearfix:after {
+		content:".";
+		display:block;
+		height: 0;
+		clear:both;
+		visibility:hidden;
+	}
+	
+
+	
+
+
