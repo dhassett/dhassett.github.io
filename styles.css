@@ -25,12 +25,17 @@ h1 {
  	list-style:none; 
 
  }
+ /* Layout
+ ----------------------------------------------------------*/
 #wrapper {
 	
 	padding-top:0;
 	padding-bottom: 2em;
 	width:100%;
 	}
+
+	footer,
+
 
 	#container, #navigation {
 			
@@ -42,6 +47,27 @@ h1 {
 		#container{
 			background: url(images/upfeathers.png);
 
+		}
+
+		/* floats
+		---------------------------------------------------*/
+
+		.align-right {
+			float:right;
+			margin: 1em 0 1em 1em;
+		}
+
+		.align-left {
+			float:left;
+			margin:1em 1em 1em 0;
+		}
+
+
+		.align-centre {
+			display:block;
+			margin: 1em auto;
+		
+		
 		}
 
 	/* Embedded-media 
@@ -88,6 +114,21 @@ nav ul li :hover {
 		clear:both;
 		visibility:hidden;
 	}
+	/* Media Queries
+	-----------------------------------*/
+
+	@media screen and (min-width:600px) { 
+		main {
+			width:60%;
+			float:left;
+		}
+		#secondary{
+			width:36%;
+			float:right;
+			border-radius:5px;
+		}
+}
+	
 	
 
 	
